@@ -1,0 +1,101 @@
+#seccion1 {
+    min-height: 100vh;
+    position: relative;
+
+}
+video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.2;
+    mix-blend-mode: overlay;
+}
+#boton0 {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: yellow;
+    margin: 20px;
+    margin-left: 140px;
+    padding: 20px;
+    border: solid 1.5px gold;
+    cursor:pointer;
+}
+#boton1 {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border: solid 1.5px gold;
+    cursor:pointer;
+    
+}
+#boton2 {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border: solid 1.5px gold;
+    cursor:pointer;
+}
+#boton3 {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border: solid 1.5px gold;
+    cursor:pointer;
+}
+#boton4 {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border: solid 1.5px gold;
+    cursor:pointer;
+}
+#boton_principal {
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color:aqua;
+    margin: 10px;
+    margin-left: 425px;
+    margin-top: 270px;
+    padding: 25px;
+    font-size: larger;
+    border: solid 2px blue;
+    cursor:pointer;
+
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color:yellow;
+}
+a:hover {
+    color:red;
+}
+a:active {
+    color:darkgreen;
+}

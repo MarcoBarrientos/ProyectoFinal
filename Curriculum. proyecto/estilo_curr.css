@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(8, 8, 45);
+}
+header{
+    background-color: black;
+    color:gold;
+    text-align: center;
+    border: 3px solid gold;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+section {
+    background-color: black;
+    margin: 30px;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+
+}
+section:hover {
+    box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem rgb(164, 126, 22);
+}
+#articulo1 {
+    color:white;
+
+}
+h3 {
+    text-align: center;
+}
+.container {
+    display:flex;
+}
+.img_container{
+    padding-top:100px;
+    padding-left: 225px;
+    margin: 15px;
+
+}
+.texto {
+    padding-top: 125px;
+    padding-right: 20px;
+    margin: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#articulo2 {
+    color:white;
+}
+.contenedor2 {
+    display:flex;
+}
+.lista{
+    margin: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+     text-align: center;
+     font-size: larger;
+}
+.tabla {
+    margin: 20px;
+
+}
+table tr, th, td {
+    border: solid 1px white;
+    padding: 10px;
+
+}
+footer {
+    background-color:black;
+    padding: 30px;
+    border: 3px solid gold;
+    cursor:pointer;
+}
+
+h5 {
+    color:gold;
+    font-size:larger;
+    text-align: center;
+    margin: 25px;
+
+}
+.contenedor3{
+    display:flex;
+}
+.redes {
+    padding-left: 300px;
+    padding-top: 25px;
+
+}
+#imagen {
+    border-style: solid;
+    border-width: 7px;
+    border-color:rgba(169, 169, 169, 0.192);
+    border-radius: 500px;
+}
+

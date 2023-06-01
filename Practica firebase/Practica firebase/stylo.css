@@ -1,0 +1,65 @@
+html{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.flex-container-row {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-row > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+#imagenLogo{
+  width: 100px;
+}
+
+#mensajesChat {
+  width: 50%;
+  margin: 10px;
+  height: 200px;
+  background-color:darkgray;
+  border: 4px solid blue;
+  overflow-y: scroll;
+}
+#textoMensaje {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border-top-style:none;
+  border-left-style:none;
+  border-right-style:none;
+  border-bottom: 2px solid gray;
+}
+
+#textoMensaje:focus {
+  outline: none;
+}
+
+.botonIniciar{
+ border-style: none;
+ padding: 10px;
+ background-color:black;
+ color: white;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.botonCerrar{
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(0, 2, 100);
+  color: rgb(234, 255, 47);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nombre-usuario{
+  color:blue;
+}
+
+.nombre-chat{
+  font-weight: bold;
+}

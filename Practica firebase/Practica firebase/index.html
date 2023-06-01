@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="stylo.css" rel="stylesheet">
+    <title>Chat Con Firebase</title>
+</head>
+<body>
+    <div class="flex-container-row">
+        <div>
+            <h3 style="color: rgb(57, 7, 100);">Chat Usando Firebase</h3>
+        </div>
+        <div>
+            <img id="imagenLogo" src="https://th.bing.com/th/id/OIP.qCye5djENm61K3wM9dgUXgAAAA?pid=ImgDet&rs=1">
+        </div>
+    </div>
+    <div class="flex-container-row">
+            <div style="color:rgb(41, 141, 175)">Estas utilizando tu cuenta de:</div>
+    </div>
+    <div class="flex-container-row">
+            <div id="usuarioConectado" style="color:darkred"><b>No conectado</b></div>
+    </div>
+    <div class="flex-container-row">
+        <button class="botonIniciar" id="botonIniciar">Iniciar sesion</button>
+        <button class="botonCerrar" id="botonCerrar" style="display:none;">Cerra sesion</button>
+    </div>
+    <div class="flex-container-row">
+        <div id="mensajesChat">
+            En esta parte se ingresaran tus mensajes.
+        </div>
+    </div>
+    <div class="flex-container-row">
+        <div>
+         <input type="text" id="textoMensaje" placeholder="Escribe Tu Mensaje Acá">
+        </div>
+         </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
